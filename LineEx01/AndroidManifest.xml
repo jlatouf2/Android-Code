@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lineex01"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Nextpage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Second"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Third"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Fourth"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FragmentButton"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MainAct2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FragmentTab1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FragmentTab2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="FragmentTab3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Login2"
+            android:label="@string/app_name" >
+        </activity>
+                <activity
+            android:name=".Login3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Waiting"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Pushing"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity android:name="com.facebook.LoginActivity"
+           android:theme="@android:style/Theme.Translucent.NoTitleBar"
+           android:label="@string/app_name" />
+         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+       
+                
+    </application>
+    
+</manifest>

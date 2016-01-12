@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="name"
+        android:summary="enter Your Name"
+        android:title="EditText" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox"
+        android:summary="check this box"
+        android:title="CheckBox" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="automatic"
+        android:summary="check this box"
+        android:title="Automatic" />
+
+    <ListPreference
+        android:entries="@array/list"
+        android:entryValues="@array/lValues"
+        android:key="list"
+        android:summary="This is a list to choose from"
+        android:title="list" />
+
+    <PreferenceCategory
+        android:summary="Username and password information"
+        android:title="Login information" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="automatic"
+            android:summary="check this box"
+            android:title="Stuffing" />
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:summary="PreferenceScreen Summary"
+        android:title="PrefScreen Title" >
+        <PreferenceCategory
+            android:summary="Radius Stuff"
+            android:title="Login information" >
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="automatic"
+                android:summary="check this box"
+                android:title="Bobbi" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+</PreferenceScreen>
